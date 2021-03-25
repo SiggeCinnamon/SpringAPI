@@ -1,12 +1,10 @@
-package examens.spring.spring.Controller;
+package examens.spring.spring;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
-
-import examens.spring.spring.PersonNotFoundException;
 
 @ControllerAdvice
 public class PersonNotFoundAdvice {

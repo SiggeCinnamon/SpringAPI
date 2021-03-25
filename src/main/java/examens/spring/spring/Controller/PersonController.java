@@ -11,8 +11,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import examens.spring.spring.PersonNotFoundException;
 import examens.spring.spring.Entity.Person;
 import examens.spring.spring.Repository.PersonRepository;
+
+
 
 @RestController
 public class PersonController {
@@ -29,17 +32,17 @@ public class PersonController {
     }
 
     @PostMapping("/persons")
-    Person newPerson(@RequestBody Person newPerson){
-        return repo.save(newPerson)
+    Person newPerson(@RequestBody Person newPerson) {
+        return repo.save(newPerson);
     }
 
     @GetMapping("/persons/{id}")
-    Person one(@PathVariable int id) {
-        return repo.findAllById(id).orElseThrow(() -> new PersonNotFoundException(id));
+    Person one(@PathVariable Long id) {
+        return repo.findById(id).orElseThrow(() -> new PersonNotFoundException(id));
     }
 
     @PutMapping("/persons/{id]")
-    Person replacePerson(@RequestBody Person newPerson, @PathVariable int id) {
+    Person replacePerson(@RequestBody Person newPerson, @PathVariable Long id) {
 
         return repo.findById(id).map(person -> {
             person.setName(newPerson.getName());
@@ -54,7 +57,7 @@ public class PersonController {
     }
 
     @DeleteMapping("/person/{id]")
-    void deletePerson(@PathVariable int id) {
+    void deletePerson(@PathVariable Long id) {
         repo.deleteById(id);
     }
 }

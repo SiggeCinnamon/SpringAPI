@@ -3,13 +3,14 @@ package examens.spring.spring.Entity;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 
 @Entity
 public class Person {
 
     @Id
-    @GeneratedValue
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String name;
     private int age;
     private String country;
@@ -19,16 +20,8 @@ public class Person {
 
     }
 
-    Person(int id, String name) {
+    Person(Long id, String name) {
         this.name = name;
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
         this.id = id;
     }
 
@@ -64,6 +57,14 @@ public class Person {
         this.favourit_colour = favourit_colour;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -71,7 +72,7 @@ public class Person {
         result = prime * result + age;
         result = prime * result + ((country == null) ? 0 : country.hashCode());
         result = prime * result + ((favourit_colour == null) ? 0 : favourit_colour.hashCode());
-        result = prime * result + id;
+        result = prime * result + ((id == null) ? 0 : id.hashCode());
         result = prime * result + ((name == null) ? 0 : name.hashCode());
         return result;
     }
@@ -97,7 +98,10 @@ public class Person {
                 return false;
         } else if (!favourit_colour.equals(other.favourit_colour))
             return false;
-        if (id != other.id)
+        if (id == null) {
+            if (other.id != null)
+                return false;
+        } else if (!id.equals(other.id))
             return false;
         if (name == null) {
             if (other.name != null)
