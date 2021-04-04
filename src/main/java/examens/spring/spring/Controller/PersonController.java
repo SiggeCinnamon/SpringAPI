@@ -37,11 +37,10 @@ public class PersonController {
         return repo.findByName(name);
     }
 
-    @GetMapping("/persons/get/age/{age}")
-    Collection<Person> getAge(@PathVariable int age) {
+    @GetMapping("/persons/age/{age}")
+    Collection<Person> getPersonByAge(@PathVariable int age) {
         return repo.findByAge(age);
     }
-
     @GetMapping("/persons/get/country/{country}")
     Collection<Person> getCountry(@PathVariable String country) {
         return repo.findByCountry(country);
@@ -82,9 +81,6 @@ public class PersonController {
         repo.deleteById(id);
     }
 
-    @GetMapping("/persons/age/{age}")
-    Collection<Person> getPersonByAge(@PathVariable int age) {
-        return repo.findByAge(age);
-    }
+  
 
 }
