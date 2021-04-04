@@ -47,7 +47,7 @@ public class PersonController {
         return repo.findByCountry(country);
     }
 
-    @GetMapping("/persons/get/favouriteColour/{favourite_Colour}")
+    @GetMapping("/persons/get/favouriteColour/{favouriteColour}")
     Collection<Person> getFavouriteColour(@PathVariable String favouriteColour) {
         return repo.findByFavouritColour(favouriteColour);
     }
