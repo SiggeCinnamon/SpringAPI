@@ -1,4 +1,4 @@
-package examens.spring.spring;
+package examens.spring.spring.Exception;
 
 public class PersonNotFoundException extends RuntimeException {
 

@@ -1,28 +1,25 @@
 package examens.spring.spring.Entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
 @Entity
 public class Person {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private @Id @GeneratedValue(strategy = GenerationType.IDENTITY) Long id;
+
     private String name;
     private int age;
     private String country;
-    private String favourit_colour;
+
+    private String favouritColour;
 
     Person() {
 
-    }
-
-    Person(Long id, String name) {
-        this.name = name;
-        this.id = id;
     }
 
     public String getName() {
@@ -49,12 +46,12 @@ public class Person {
         this.country = country;
     }
 
-    public String getFavourit_colour() {
-        return favourit_colour;
+    public String getFavouritColour() {
+        return favouritColour;
     }
 
-    public void setFavourit_colour(String favourit_colour) {
-        this.favourit_colour = favourit_colour;
+    public void setFavouritColour(String favouritColour) {
+        this.favouritColour = favouritColour;
     }
 
     public Long getId() {
@@ -71,7 +68,7 @@ public class Person {
         int result = 1;
         result = prime * result + age;
         result = prime * result + ((country == null) ? 0 : country.hashCode());
-        result = prime * result + ((favourit_colour == null) ? 0 : favourit_colour.hashCode());
+        result = prime * result + ((favouritColour == null) ? 0 : favouritColour.hashCode());
         result = prime * result + ((id == null) ? 0 : id.hashCode());
         result = prime * result + ((name == null) ? 0 : name.hashCode());
         return result;
@@ -93,10 +90,10 @@ public class Person {
                 return false;
         } else if (!country.equals(other.country))
             return false;
-        if (favourit_colour == null) {
-            if (other.favourit_colour != null)
+        if (favouritColour == null) {
+            if (other.favouritColour != null)
                 return false;
-        } else if (!favourit_colour.equals(other.favourit_colour))
+        } else if (!favouritColour.equals(other.favouritColour))
             return false;
         if (id == null) {
             if (other.id != null)
@@ -113,8 +110,16 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person [age=" + age + ", country=" + country + ", favourit_colour=" + favourit_colour + ", id=" + id
+        return "Person [age=" + age + ", country=" + country + ", favouritColour=" + favouritColour + ", id=" + id
                 + ", name=" + name + "]";
+    }
+
+    public Person(Long id, String name, int age, String country, String favouritColour) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.country = country;
+        this.favouritColour = favouritColour;
     }
 
 }

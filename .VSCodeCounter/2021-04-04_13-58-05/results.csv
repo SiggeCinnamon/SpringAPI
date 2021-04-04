@@ -1,0 +1,31 @@
+"filename", "language", "HTML", "Properties", "Java", "XML", "Markdown", "SQL", "Batch", "comment", "blank", "total"
+"d:\Google Drive\java\examens-arbete\SpringAPI\.mvn\wrapper\MavenWrapperDownloader.java", "Java", 0, 0, 76, 0, 0, 0, 0, 31, 11, 118
+"d:\Google Drive\java\examens-arbete\SpringAPI\.mvn\wrapper\maven-wrapper.properties", "Properties", 0, 2, 0, 0, 0, 0, 0, 0, 1, 3
+"d:\Google Drive\java\examens-arbete\SpringAPI\HELP.md", "Markdown", 0, 0, 0, 0, 6, 0, 0, 0, 4, 10
+"d:\Google Drive\java\examens-arbete\SpringAPI\README.md", "Markdown", 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"d:\Google Drive\java\examens-arbete\SpringAPI\mvnw.cmd", "Batch", 0, 0, 0, 0, 0, 0, 96, 51, 36, 183
+"d:\Google Drive\java\examens-arbete\SpringAPI\pom.xml", "XML", 0, 0, 0, 46, 0, 0, 0, 0, 3, 49
+"d:\Google Drive\java\examens-arbete\SpringAPI\sql\create.sql", "SQL", 0, 0, 0, 0, 0, 12, 0, 0, 7, 19
+"d:\Google Drive\java\examens-arbete\SpringAPI\sql\sqllite.sql", "SQL", 0, 0, 0, 0, 0, 100, 0, 0, 2, 102
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Application.java", "Java", 0, 0, 9, 0, 0, 0, 0, 0, 5, 14
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Controller\PersonController.java", "Java", 0, 0, 73, 0, 0, 0, 0, 0, 18, 91
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Controller\WebController.java", "Java", 0, 0, 13, 0, 0, 0, 0, 0, 4, 17
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Entity\Person.java", "Java", 0, 0, 103, 0, 0, 0, 0, 0, 23, 126
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Exception\PersonNotFoundAdvice.java", "Java", 0, 0, 15, 0, 0, 0, 0, 0, 5, 20
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Exception\PersonNotFoundException.java", "Java", 0, 0, 7, 0, 0, 0, 0, 3, 5, 15
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Repository\PersonRepository.java", "Java", 0, 0, 10, 0, 0, 0, 0, 0, 10, 20
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\resources\application.properties", "Properties", 0, 5, 0, 0, 0, 0, 0, 0, 2, 7
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\main\resources\static\index.html", "HTML", 18, 0, 0, 0, 0, 0, 0, 0, 2, 20
+"d:\Google Drive\java\examens-arbete\SpringAPI\src\test\java\examens\spring\spring\ApplicationTests.java", "Java", 0, 0, 9, 0, 0, 0, 0, 0, 5, 14
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\application.properties", "Properties", 0, 5, 0, 0, 0, 0, 0, 0, 2, 7
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\examens\spring\spring\Application.class", "Java", 0, 0, 8, 0, 0, 0, 0, 0, 0, 8
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\examens\spring\spring\Controller\PersonController.class", "Java", 0, 0, 52, 0, 0, 0, 0, 0, 0, 52
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\examens\spring\spring\Controller\WebController.class", "Java", 0, 0, 11, 0, 0, 0, 0, 0, 0, 11
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\examens\spring\spring\Entity\Person.class", "Java", 0, 0, 35, 0, 0, 0, 0, 0, 0, 35
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\examens\spring\spring\Exception\PersonNotFoundAdvice.class", "Java", 0, 0, 9, 0, 0, 0, 0, 0, 0, 9
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\examens\spring\spring\Exception\PersonNotFoundException.class", "Java", 0, 0, 11, 0, 0, 0, 0, 0, 0, 11
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\examens\spring\spring\Repository\PersonRepository.class", "Java", 0, 0, 8, 0, 0, 0, 0, 0, 0, 8
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\classes\static\index.html", "HTML", 18, 0, 0, 0, 0, 0, 0, 0, 2, 20
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\surefire-reports\TEST-examens.spring.spring.ApplicationTests.xml", "XML", 0, 0, 0, 447, 0, 0, 0, 0, 7, 454
+"d:\Google Drive\java\examens-arbete\SpringAPI\target\test-classes\examens\spring\spring\ApplicationTests.class", "Java", 0, 0, 6, 0, 0, 0, 0, 0, 0, 6
+"Total", "-", 36, 12, 455, 493, 7, 112, 96, 85, 154, 1450

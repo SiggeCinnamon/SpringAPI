@@ -1,6 +1,6 @@
-examens\spring\spring\PersonNotFoundAdvice.class
-examens\spring\spring\PersonNotFoundException.class
+examens\spring\spring\Exception\PersonNotFoundAdvice.class
 examens\spring\spring\Controller\PersonController.class
 examens\spring\spring\Repository\PersonRepository.class
 examens\spring\spring\Application.class
+examens\spring\spring\Exception\PersonNotFoundException.class
 examens\spring\spring\Entity\Person.class

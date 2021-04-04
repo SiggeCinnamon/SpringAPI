@@ -1,6 +1,6 @@
 D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Entity\Person.java
-D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\PersonNotFoundAdvice.java
-D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\PersonNotFoundException.java
+D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Exception\PersonNotFoundAdvice.java
 D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Application.java
 D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Repository\PersonRepository.java
 D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Controller\PersonController.java
+D:\Google Drive\java\examens-arbete\SpringAPI\src\main\java\examens\spring\spring\Exception\PersonNotFoundException.java
